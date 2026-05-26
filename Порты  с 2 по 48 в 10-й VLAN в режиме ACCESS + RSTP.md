@@ -17,4 +17,4 @@ spanning-tree bpduguard enable   # защита от петель: если по
 exit  
 
 end  
-copy run start # или можно write memory # copy running-config startup-config
+copy run start # или можно write memory # copy running-config startup-config  
