@@ -2,13 +2,18 @@
 
 en # или enable  
 conf t  
+
 spanning-tree mode rapid-pvst  
+
 vlan 10  
 name VLAN10  
 exit  
+
 int range gi0/2-48  
-switch mode access  
-switch access vlan 10  
-span tree portfast  
+switchport mode access  
+switchport access vlan 10  
+spanning-tree portfast  
+exit  
+
 end  
 copy run start # или можно write memory  
