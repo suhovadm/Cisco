@@ -16,4 +16,4 @@ spanning-tree portfast
 exit  
 
 end  
-copy run start # или можно write memory  
+copy run start # или можно write memory # copy running-config startup-config
