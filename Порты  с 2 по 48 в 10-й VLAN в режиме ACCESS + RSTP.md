@@ -13,6 +13,7 @@ int range gi0/2-48
 switchport mode access  
 switchport access vlan 10  
 spanning-tree portfast  
+spanning-tree bpduguard enable   # защита от петель: если подключить другой свитч, порт уйдёт в err-disable  
 exit  
 
 end  
