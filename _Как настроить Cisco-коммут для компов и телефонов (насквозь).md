@@ -13,7 +13,7 @@ en		# enable - вход в привилегированный режим (пол
 conf t 		# configure terminal - режим настройки устройства  
 
 2. RSTP  
-spanning-tree mode rapid-pvst 	# включаем Rapid STP - защита от L2-петель + бьстрое восстановление  
+spanning-tree mode rapid-pvst 	# включаем Rapid STP - защита от L2-петель + быстрое восстановление  
 
 3. QoS (опционально)  
 mls qos		# включаем QoS - готовим коммутатор к приоритизации трафика (особенно голос)  
