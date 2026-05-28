@@ -106,7 +106,7 @@ description LINK_TO_ROUTER # описание интерфейса. Можно �
 switchport trunk encapsulation dot1q # на многих современных Цисках отсутствует и может выдать ошибку: "invalid input detected, или command rejected". Это нормально.  
 switchport mode trunk  
 switchport nonegotiate # отключает DTP, уменьшает риск случайного trunk, best practice для статических trunk.  
-# Это работает только если порт уже переведён в trunk/access вручную.  
+#Это работает только если порт уже переведён в trunk/access вручную.  
 
 switchport trunk native vlan 999  
 
