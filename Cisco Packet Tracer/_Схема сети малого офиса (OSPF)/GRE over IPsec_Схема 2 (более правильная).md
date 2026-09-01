@@ -200,7 +200,7 @@ crypto map VPN-MAP 10 ipsec-isakmp <--- Создаём Crypto Map.
  match address 110 <--- Применяем ACL 110 для определения трафика VPN.  
 ex <--- Выходим обратно в (config).  
 
-interface GigabitEthernet 0/1 <--- Выбираем интерфейс, который смотрит в сторону ВТОРОГО маршрутизатора (config-if).  
+interface GigabitEthernet 0/1 <--- Выбираем интерфейс, который смотрит в сторону ПЕРВОГО маршрутизатора (config-if).  
  crypto map VPN-MAP <--- Применяем VPN-настройки к интерфейсу. Если всё гуд, появится сообщение, что ISAKMP включён:  
 // *Jan  3 07:16:26.785: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is ON  
 ex  
